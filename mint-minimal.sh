@@ -343,6 +343,8 @@ xreader-dbg \
 xviewer \
 xviewer-dbg \
 xviewer-plugins \
+rm -rf /var/lib/libreoffice \
+rm -rf /usr/share/fonts/turetype/libreoffice \
 #
 echo "Nettoyage..."
 apt autoremove
