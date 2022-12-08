@@ -346,5 +346,5 @@ xviewer-plugins \
 #
 echo "Nettoyage..."
 apt autoremove
-rm -rf /var/lib/libreoffice \
-rm -rf /usr/share/fonts/truetype\libreoffice \
+rm -rf /var/lib/libreoffice
+rm -rf /usr/share/fonts/truetype\libreoffice
